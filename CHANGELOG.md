@@ -1,3 +1,10 @@
+## [1.0.18](https://github.com/awazevr/docker-build-push-action/compare/v1.0.17...v1.0.18) (2022-01-12)
+
+
+### Bug Fixes
+
+* **MFE-3:** hardwired tags ([b1bb324](https://github.com/awazevr/docker-build-push-action/commit/b1bb32465eb2f61f1d913bf376186eae4300cacf))
+
 ## [1.0.17](https://github.com/awazevr/docker-build-push-action/compare/v1.0.16...v1.0.17) (2022-01-12)
 
 
