@@ -1,0 +1,29 @@
+name: "Docker Build and Push"
+description: "Docker build and pushing to ECR Registry ..."
+inputs:
+  target:
+    description: 'Zap Scan target'
+    required: true
+  # issue_title:
+  #   description: 'Zap Scan Report title'
+  #   required: true 
+  # fail_action:
+  #   description: 'Apply fail action on failure'
+  #   required: true
+  # rules_file_name:
+  #   description: 'The filepath of the zap rules file'
+  #   required: true
+
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+    # - name: ZAP Scan
+    #   uses: zaproxy/action-api-scan@v0.1.0
+    #   with:
+    #     target: ${{ inputs.target }} 
+    #     issue_title: ${{ inputs.issue_title }} 
+    #     fail_action: ${{ inputs.fail_action }} 
+    #     rules_file_name: ${{ inputs.rules_file_name }} 
+    
