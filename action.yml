@@ -19,6 +19,11 @@ runs:
   steps:
     - name: Checkout repo
       uses: actions/checkout@v2
+      uses: benjlevesque/short-sha@v1.2
+        id: short-sha
+        with:
+          length: 7
+
     # - name: ZAP Scan
     #   uses: zaproxy/action-api-scan@v0.1.0
     #   with:
