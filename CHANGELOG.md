@@ -1,3 +1,10 @@
+## [1.0.12](https://github.com/awazevr/docker-build-push-action/compare/v1.0.11...v1.0.12) (2022-01-12)
+
+
+### Bug Fixes
+
+* **MFE-3:** removed env from derferencing ([5298555](https://github.com/awazevr/docker-build-push-action/commit/5298555ebd91df63dfb85319451c00b2acc5e08d))
+
 ## [1.0.11](https://github.com/awazevr/docker-build-push-action/compare/v1.0.10...v1.0.11) (2022-01-12)
 
 
