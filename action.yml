@@ -1,8 +1,16 @@
 name: "Docker Build and Push"
 description: "Docker build and pushing to ECR Registry ..."
 inputs:
-  target:
-    description: 'Zap Scan target'
+  aws-access-key-id:
+    description: 'AWS Access Key Id'
+    required: true
+
+  aws-secret-access-key:
+    description: 'AWS Secret Access Key'
+    required: true
+
+  aws-region:
+    description: 'AWS Resource Region'
     required: true
   # issue_title:
   #   description: 'Zap Scan Report title'
@@ -23,7 +31,13 @@ runs:
         id: short-sha
         with:
           length: 7
-
+          
+    - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ inputs.aws-access-key-id }}
+          aws-secret-access-key: ${{ inputs.aws-secret-access-key }}
+          aws-region: ${{ inputs.aws-region }}
     # - name: ZAP Scan
     #   uses: zaproxy/action-api-scan@v0.1.0
     #   with:
