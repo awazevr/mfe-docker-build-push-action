@@ -54,7 +54,7 @@ runs:
     
     - name: Build and push
       uses: docker/build-push-action@v2
-      env:g st
+      env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
         GIT_SHA: ${{ steps.short-sha.outputs.sha }}
       with:
