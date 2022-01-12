@@ -12,15 +12,14 @@ inputs:
   aws-region:
     description: 'AWS Resource Region'
     required: true
-  # issue_title:
-  #   description: 'Zap Scan Report title'
-  #   required: true 
-  # fail_action:
-  #   description: 'Apply fail action on failure'
-  #   required: true
-  # rules_file_name:
-  #   description: 'The filepath of the zap rules file'
-  #   required: true
+
+  bit-token:
+    description: 'BIT Access Token'
+    required: true
+
+  pat-token:
+    description: 'Github PAT Token'
+    required: true
 
 runs:
   using: "composite"
@@ -31,18 +30,23 @@ runs:
         id: short-sha
         with:
           length: 7
-          
+
     - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: ${{ inputs.aws-access-key-id }}
           aws-secret-access-key: ${{ inputs.aws-secret-access-key }}
           aws-region: ${{ inputs.aws-region }}
-    # - name: ZAP Scan
-    #   uses: zaproxy/action-api-scan@v0.1.0
-    #   with:
-    #     target: ${{ inputs.target }} 
-    #     issue_title: ${{ inputs.issue_title }} 
-    #     fail_action: ${{ inputs.fail_action }} 
-    #     rules_file_name: ${{ inputs.rules_file_name }} 
+
+    - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
+
+    - name: Update .npmrc
+        run: |
+             echo -e "\n" >> .npmrc
+             echo -e "//node.bit.dev/:_authToken=${{ inputs.bit-token }}" >> .npmrc
+             echo -e "//npm.pkg.github.com/:_authToken=${{ inputs.pat-token }}" >> .npmrc 
+    
+
     
