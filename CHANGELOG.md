@@ -1,3 +1,10 @@
+## [1.0.16](https://github.com/awazevr/docker-build-push-action/compare/v1.0.15...v1.0.16) (2022-01-12)
+
+
+### Bug Fixes
+
+* **MFE-3:** removed extra braces ([9684e8a](https://github.com/awazevr/docker-build-push-action/commit/9684e8a5c447d7cea1432f221d3884be3df7f34f))
+
 ## [1.0.15](https://github.com/awazevr/docker-build-push-action/compare/v1.0.14...v1.0.15) (2022-01-12)
 
 
