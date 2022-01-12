@@ -50,6 +50,7 @@ runs:
           echo -e "\n" >> .npmrc
           echo -e "//node.bit.dev/:_authToken=${{ inputs.bit-token }}" >> .npmrc
           echo -e "//npm.pkg.github.com/:_authToken=${{ inputs.pat-token }}" >> .npmrc 
+      shell: bash
     
 
     
