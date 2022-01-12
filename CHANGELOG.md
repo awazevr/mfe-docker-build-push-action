@@ -1,3 +1,10 @@
+## [1.0.14](https://github.com/awazevr/docker-build-push-action/compare/v1.0.13...v1.0.14) (2022-01-12)
+
+
+### Bug Fixes
+
+* **MFE-3:** bumped version number ([35f1130](https://github.com/awazevr/docker-build-push-action/commit/35f11308b83dddc13a53230cc21b24ae9d87c41d))
+
 ## [1.0.13](https://github.com/awazevr/docker-build-push-action/compare/v1.0.12...v1.0.13) (2022-01-12)
 
 
