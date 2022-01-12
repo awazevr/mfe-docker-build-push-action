@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/awazevr/docker-build-push-action/compare/v1.0.10...v1.0.11) (2022-01-12)
+
+
+### Bug Fixes
+
+* **MFE0-3:** fix mapping error on line 61 ([250e9c4](https://github.com/awazevr/docker-build-push-action/commit/250e9c4c852227673793fde5ce94c0cbc0018054))
+
 ## [1.0.10](https://github.com/awazevr/docker-build-push-action/compare/v1.0.9...v1.0.10) (2022-01-12)
 
 
