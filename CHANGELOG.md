@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/awazevr/docker-build-push-action/compare/v1.0.3...v1.0.4) (2022-01-12)
+
+
+### Bug Fixes
+
+* **MFE-3:** separate out the using for short sha ([dd1e572](https://github.com/awazevr/docker-build-push-action/commit/dd1e5727956eebf63573029453a95e95244a5339))
+
 ## [1.0.3](https://github.com/awazevr/docker-build-push-action/compare/v1.0.2...v1.0.3) (2022-01-12)
 
 
