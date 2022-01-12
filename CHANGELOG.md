@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/awazevr/docker-build-push-action/compare/v1.0.1...v1.0.2) (2022-01-12)
+
+
+### Bug Fixes
+
+* **MFE-3:** added inputs for AWS Creds ([628f96b](https://github.com/awazevr/docker-build-push-action/commit/628f96b25000171c62743bbe296ee13bc1553a32))
+
 ## [1.0.1](https://github.com/awazevr/docker-build-push-action/compare/v1.0.0...v1.0.1) (2022-01-12)
 
 
