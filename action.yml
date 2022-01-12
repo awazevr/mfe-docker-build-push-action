@@ -26,6 +26,8 @@ runs:
   steps:
     - name: Checkout repo
       uses: actions/checkout@v2
+      
+    - name: Get short SHA
       uses: benjlevesque/short-sha@v1.2
         id: short-sha
         with:
