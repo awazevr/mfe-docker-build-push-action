@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/awazevr/docker-build-push-action/compare/v1.0.9...v1.0.10) (2022-01-12)
+
+
+### Bug Fixes
+
+* **MFE0-3:** added build and push step ([06d5a95](https://github.com/awazevr/docker-build-push-action/commit/06d5a953f711e568270067b9ffa07e9d7a41950b))
+
 ## [1.0.9](https://github.com/awazevr/docker-build-push-action/compare/v1.0.8...v1.0.9) (2022-01-12)
 
 
