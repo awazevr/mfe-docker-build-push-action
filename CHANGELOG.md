@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/awazevr/docker-build-push-action/compare/v1.0.2...v1.0.3) (2022-01-12)
+
+
+### Bug Fixes
+
+* **MFE-3:** added inputs for ECR Login and .npmrc update ([d348532](https://github.com/awazevr/docker-build-push-action/commit/d34853249f70d557088e39cac9b41fad04381e4e))
+
 ## [1.0.2](https://github.com/awazevr/docker-build-push-action/compare/v1.0.1...v1.0.2) (2022-01-12)
 
 
