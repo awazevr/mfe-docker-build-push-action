@@ -1,3 +1,10 @@
+## [1.0.20](https://github.com/awazevr/docker-build-push-action/compare/v1.0.19...v1.0.20) (2022-01-12)
+
+
+### Bug Fixes
+
+* **MFE-3:** removed unwanted chars ([9a0002e](https://github.com/awazevr/docker-build-push-action/commit/9a0002ee11c5de289afe37dfe28ed6843c10e0f0))
+
 ## [1.0.19](https://github.com/awazevr/docker-build-push-action/compare/v1.0.18...v1.0.19) (2022-01-12)
 
 
