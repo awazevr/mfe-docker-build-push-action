@@ -21,14 +21,15 @@ inputs:
     description: 'Github PAT Token'
     required: true
 
+  # sha-length:
+  #   description: 'Github PAT Token'
+  #   required: true
+
 runs:
   using: "composite"
   steps:
-    - name: Checkout repo
-      uses: actions/checkout@v2
-      
-    - name: Get short SHA
-      uses: benjlevesque/short-sha@v1.2
+    - uses: actions/checkout@v2
+    - uses: benjlevesque/short-sha@v1.2
         id: short-sha
         with:
           length: 7
