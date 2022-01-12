@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/awazevr/docker-build-push-action/compare/v1.0.7...v1.0.8) (2022-01-12)
+
+
+### Bug Fixes
+
+* **MFE-3:** added => shell: bash ([03051e2](https://github.com/awazevr/docker-build-push-action/commit/03051e22280e3b5c81adb74a57f09db3d9a6e6ab))
+
 ## [1.0.7](https://github.com/awazevr/docker-build-push-action/compare/v1.0.6...v1.0.7) (2022-01-12)
 
 
