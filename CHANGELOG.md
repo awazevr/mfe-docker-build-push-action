@@ -1,3 +1,10 @@
+## [1.0.13](https://github.com/awazevr/docker-build-push-action/compare/v1.0.12...v1.0.13) (2022-01-12)
+
+
+### Bug Fixes
+
+* **MFE-3:** converted to stringtoken ([8ef1c06](https://github.com/awazevr/docker-build-push-action/commit/8ef1c06c26c1d9f50e74c99ac7196ce6b6915938))
+
 ## [1.0.12](https://github.com/awazevr/docker-build-push-action/compare/v1.0.11...v1.0.12) (2022-01-12)
 
 
