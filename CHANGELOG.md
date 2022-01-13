@@ -1,3 +1,10 @@
+## [1.0.22](https://github.com/awazevr/docker-build-push-action/compare/v1.0.21...v1.0.22) (2022-01-13)
+
+
+### Bug Fixes
+
+* **MFE-3:** added ecr repository as input and NOT ecr registry ([6e3f6f0](https://github.com/awazevr/docker-build-push-action/commit/6e3f6f054d7bca9974e4bdcd0d4e5a5bcdddc83c))
+
 ## [1.0.21](https://github.com/awazevr/docker-build-push-action/compare/v1.0.20...v1.0.21) (2022-01-13)
 
 
