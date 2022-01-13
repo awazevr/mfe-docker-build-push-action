@@ -1,3 +1,10 @@
+## [1.0.21](https://github.com/awazevr/docker-build-push-action/compare/v1.0.20...v1.0.21) (2022-01-13)
+
+
+### Bug Fixes
+
+* **MFE-3:** converted ecr value into an action input ([e243afa](https://github.com/awazevr/docker-build-push-action/commit/e243afab4bd15e7a1ea70c402ec27354bcbb2851))
+
 ## [1.0.20](https://github.com/awazevr/docker-build-push-action/compare/v1.0.19...v1.0.20) (2022-01-12)
 
 
