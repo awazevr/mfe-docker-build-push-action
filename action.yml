@@ -13,6 +13,10 @@ inputs:
     description: 'AWS Resource Region'
     required: true
 
+  ecr-registry:
+    description: 'AWS Elastic Container Registry'
+    required: true
+
   bit-token:
     description: 'BIT Access Token'
     required: true
@@ -60,5 +64,5 @@ runs:
       with:
         context: '.'
         push: false
-        tags: ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:${{ env.GIT_SHA }},${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:latest
+        tags: ${{ inputs.ecr-registry }}/${{ env.ECR_REPOSITORY }}:${{ env.GIT_SHA }},${{ inputs.ecr-registry }}/${{ env.ECR_REPOSITORY }}:latest
     
