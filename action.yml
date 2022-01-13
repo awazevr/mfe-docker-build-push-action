@@ -72,3 +72,12 @@ runs:
         GIT_SHA: ${{ steps.short-sha.outputs.sha }}
       run: docker cp $(docker create --rm ${{ env.ECR_REGISTRY }}/${{ inputs.ecr-repository }}:${{ env.GIT_SHA }}):/usr/src/app/.next ./.next
       shell: bash
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: next-static-assets
+        path: ./.next
+    - uses: actions/upload-artifact@v2
+      with:
+        name: public-static-assets
+        path: ./public
