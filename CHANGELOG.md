@@ -1,3 +1,10 @@
+## [1.0.25](https://github.com/awazevr/docker-build-push-action/compare/v1.0.24...v1.0.25) (2022-01-13)
+
+
+### Bug Fixes
+
+* **MFE-3:** fixed yaml formatting ([d067383](https://github.com/awazevr/docker-build-push-action/commit/d0673835c76175b7468c7bb95b74d6d24e048d4f))
+
 ## [1.0.24](https://github.com/awazevr/docker-build-push-action/compare/v1.0.23...v1.0.24) (2022-01-13)
 
 
