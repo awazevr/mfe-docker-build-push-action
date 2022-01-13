@@ -1,3 +1,10 @@
+## [1.0.23](https://github.com/awazevr/docker-build-push-action/compare/v1.0.22...v1.0.23) (2022-01-13)
+
+
+### Bug Fixes
+
+* corrected the repository input key ([7b5bb15](https://github.com/awazevr/docker-build-push-action/commit/7b5bb1578bbe08063b5824eb8c4d1fc6ec9e07ee))
+
 ## [1.0.22](https://github.com/awazevr/docker-build-push-action/compare/v1.0.21...v1.0.22) (2022-01-13)
 
 
