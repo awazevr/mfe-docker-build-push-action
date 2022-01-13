@@ -1,3 +1,10 @@
+## [1.0.28](https://github.com/awazevr/docker-build-push-action/compare/v1.0.27...v1.0.28) (2022-01-13)
+
+
+### Bug Fixes
+
+* **MFE-3:** added upload artifacts for publishing ([14c1a9d](https://github.com/awazevr/docker-build-push-action/commit/14c1a9d3f25fb7a17614380190d19515d83a89e9))
+
 ## [1.0.27](https://github.com/awazevr/docker-build-push-action/compare/v1.0.26...v1.0.27) (2022-01-13)
 
 
