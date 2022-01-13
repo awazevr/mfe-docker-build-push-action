@@ -1,3 +1,10 @@
+## [1.0.30](https://github.com/awazevr/mfe-docker-build-push-action/compare/v1.0.29...v1.0.30) (2022-01-13)
+
+
+### Bug Fixes
+
+* **MFE-3:** renamed repo with mfe prefix ([4e3b8bd](https://github.com/awazevr/mfe-docker-build-push-action/commit/4e3b8bdc4d25cbeee19b4a3635c2d74eaa34efe0))
+
 ## [1.0.29](https://github.com/awazevr/docker-build-push-action/compare/v1.0.28...v1.0.29) (2022-01-13)
 
 
