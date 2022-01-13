@@ -1,3 +1,10 @@
+## [1.0.27](https://github.com/awazevr/docker-build-push-action/compare/v1.0.26...v1.0.27) (2022-01-13)
+
+
+### Bug Fixes
+
+* **MFE-3:** tidied formatting ([9e2ea67](https://github.com/awazevr/docker-build-push-action/commit/9e2ea67f840218edb5b8fcf8d23591e11cd41b34))
+
 ## [1.0.26](https://github.com/awazevr/docker-build-push-action/compare/v1.0.25...v1.0.26) (2022-01-13)
 
 
