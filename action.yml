@@ -13,8 +13,8 @@ inputs:
     description: 'AWS Resource Region'
     required: true
 
-  ecr-registry:
-    description: 'AWS Elastic Container Registry'
+  ecr-repository:
+    description: 'AWS Elastic Container Registry Repository'
     required: true
 
   bit-token:
