@@ -1,3 +1,10 @@
+## [1.0.24](https://github.com/awazevr/docker-build-push-action/compare/v1.0.23...v1.0.24) (2022-01-13)
+
+
+### Bug Fixes
+
+* **MFE-3:** added Copy static assets from docker container step to the action ([9f00aa9](https://github.com/awazevr/docker-build-push-action/commit/9f00aa9d9bf679977788173c3d170d47ab8133f6))
+
 ## [1.0.23](https://github.com/awazevr/docker-build-push-action/compare/v1.0.22...v1.0.23) (2022-01-13)
 
 
