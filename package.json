@@ -21,6 +21,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/awazevr/docker-build-push-action.git"
+    "url": "https://github.com/awazevr/mfe-docker-build-push-action.git"
   }
 }

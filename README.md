@@ -1,4 +1,4 @@
-# docker-build-push-action
+# mfe-docker-build-push-action
 This is a GitHub Action meant to be used as a [composite action](https://docs.github.com/en/actions/creating-actions/creating-a-composite-action) within an existing workflow. This action encapsulates setting up a checkout, build, test and push a docker image to an Elastic Container Register (ECR) in one step. 
 
 The action encapsulates the following other actions:
