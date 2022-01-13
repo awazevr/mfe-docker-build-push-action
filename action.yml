@@ -1,5 +1,5 @@
-name: "Docker Build and Push"
-description: "Docker build and pushing to ECR Registry ..."
+name: "MFE Docker Build and Push"
+description: "Docker build and pushing mfe docker image to ECR Registry ..."
 inputs:
   aws-access-key-id:
     description: 'AWS Access Key Id'
@@ -24,10 +24,6 @@ inputs:
   pat-token:
     description: 'Github PAT Token'
     required: true
-
-  # sha-length:
-  #   description: 'Github PAT Token'
-  #   required: true
 
 runs:
   using: "composite"
