@@ -1,3 +1,10 @@
+## [1.0.35](https://github.com/awazevr/mfe-docker-build-push-action/compare/v1.0.34...v1.0.35) (2022-01-17)
+
+
+### Bug Fixes
+
+* updated README.md ([0f6da8b](https://github.com/awazevr/mfe-docker-build-push-action/commit/0f6da8b819c19aea058b58290e9082961b9e6abb))
+
 ## [1.0.34](https://github.com/awazevr/mfe-docker-build-push-action/compare/v1.0.33...v1.0.34) (2022-01-17)
 
 
