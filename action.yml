@@ -75,12 +75,12 @@ runs:
       shell: bash
 
     - uses: actions/upload-artifact@v2
-      if: ${{ inputs.build-only !== false }}
+      if: ${{ inputs.build-only == true }}
       with:
         name: next-static-assets
         path: ./.next
     - uses: actions/upload-artifact@v2
-      if: ${{ inputs.build-only !== false }}
+      if: ${{ inputs.build-only == true }}
       with:
         name: public-static-assets
         path: ./public
