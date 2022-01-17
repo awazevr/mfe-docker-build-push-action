@@ -21,11 +21,6 @@ The action encapsulates the following other actions:
 
 **Required** AWS Secret Access Key
 
-```tsv
-10011	IGNORE	(Cookie Without Secure Flag)
-10015	IGNORE	(Incomplete or No Cache-control and Pragma HTTP Header Set)
-```
-
 ### `aws-region`
 
 **Required** The AWS Region to deploy to
