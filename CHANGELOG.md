@@ -1,3 +1,14 @@
+## [1.0.33](https://github.com/awazevr/mfe-docker-build-push-action/compare/v1.0.32...v1.0.33) (2022-01-17)
+
+
+### Bug Fixes
+
+* **MFE-2:**  Add `build-only` input to action ([778b513](https://github.com/awazevr/mfe-docker-build-push-action/commit/778b51398cc2fb3b3155eac55909a501b4db830f))
+* **MFE-2:** fix invalid expressions again ([5669326](https://github.com/awazevr/mfe-docker-build-push-action/commit/56693269550e939f6970cb8e756ebec8ed094cc2))
+* **MFE-2:** Fix missed expression ([1653e04](https://github.com/awazevr/mfe-docker-build-push-action/commit/1653e041f9e1f9c6dd94e218d44fe7f9ab4db661))
+* **MFE-2:** Make expressions consistent ([ae4df8a](https://github.com/awazevr/mfe-docker-build-push-action/commit/ae4df8a2d973c5827141c174a2164540ece142bf))
+* **MFE-2:** More explicit expression for push param ([63d778f](https://github.com/awazevr/mfe-docker-build-push-action/commit/63d778f93f248b902b631f9584c7cc089774b94c))
+
 ## [1.0.32](https://github.com/awazevr/mfe-docker-build-push-action/compare/v1.0.31...v1.0.32) (2022-01-17)
 
 
