@@ -62,7 +62,7 @@ runs:
         GIT_SHA: ${{ steps.short-sha.outputs.sha }}
       with:
         context: .
-        push: ${{ inputs.build-only }}
+        push: ${{ !inputs.build-only }}
         build-args: GIT_HASH=${{ env.GIT_SHA }}
         tags: ${{ env.ECR_REGISTRY }}/${{ inputs.ecr-repository }}:${{ env.GIT_SHA }},${{ env.ECR_REGISTRY }}/${{ inputs.ecr-repository }}:latest
     
