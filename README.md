@@ -56,16 +56,12 @@ name: search-mfe-composite
 on:
   push:
     branches: [ feature/MFE-3 ]
-  # pull_request:
-  #   branches: [ master ]
 
   workflow_dispatch:
 
 jobs:
   build_and_push_image:
     environment: feature
-    env:
-      ECR_REPOSITORY: dev-age-search-mfe
     runs-on: ubuntu-latest
 
     steps:
@@ -77,6 +73,7 @@ jobs:
           aws-region: eu-west-2
           bit-token: ${{ secrets.BIT_TOKEN }}
           pat-token: ${{ secrets.PAT_TOKEN}}
+          ecr-repository: dev-age-search-mfe
 
 ```
 
