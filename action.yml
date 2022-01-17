@@ -24,6 +24,9 @@ inputs:
   pat-token:
     description: 'Github PAT Token'
     required: true
+  build-only:
+    description: 'Only build, do not push assets (true/false)'
+    required: true
 
 runs:
   using: "composite"
@@ -59,11 +62,12 @@ runs:
         GIT_SHA: ${{ steps.short-sha.outputs.sha }}
       with:
         context: .
-        push: false
+        push: ${{ inputs.build-only }}
         build-args: GIT_HASH=${{ env.GIT_SHA }}
         tags: ${{ env.ECR_REGISTRY }}/${{ inputs.ecr-repository }}:${{ env.GIT_SHA }},${{ env.ECR_REGISTRY }}/${{ inputs.ecr-repository }}:latest
     
     - name: Copy static assets from docker container
+      if: ${{ inputs.build-only !== false }}
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
         GIT_SHA: ${{ steps.short-sha.outputs.sha }}
@@ -71,10 +75,12 @@ runs:
       shell: bash
 
     - uses: actions/upload-artifact@v2
+      if: ${{ inputs.build-only !== false }}
       with:
         name: next-static-assets
         path: ./.next
     - uses: actions/upload-artifact@v2
+      if: ${{ inputs.build-only !== false }}
       with:
         name: public-static-assets
         path: ./public
