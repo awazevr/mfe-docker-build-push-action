@@ -1,3 +1,10 @@
+## [1.0.36](https://github.com/awazevr/mfe-docker-build-push-action/compare/v1.0.35...v1.0.36) (2022-01-26)
+
+
+### Bug Fixes
+
+* Add asset retention days ([cb92c65](https://github.com/awazevr/mfe-docker-build-push-action/commit/cb92c650de8f6072f47f5b39c4901794a276a7c0))
+
 ## [1.0.35](https://github.com/awazevr/mfe-docker-build-push-action/compare/v1.0.34...v1.0.35) (2022-01-17)
 
 
