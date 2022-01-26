@@ -79,8 +79,10 @@ runs:
       with:
         name: next-static-assets
         path: ./.next
+        retention-days: 1
     - uses: actions/upload-artifact@v2
       if: ${{ inputs.build-only != true }}
       with:
         name: public-static-assets
         path: ./public
+        retention-days: 1
