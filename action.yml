@@ -37,7 +37,7 @@ runs:
       uses: aws-actions/configure-aws-credentials@v1
       with:
         aws-region: ${{ inputs.aws-region }}
-        role-to-asssume: ${{ inputs.aws-role-to-assume }}
+        role-to-assume: ${{ inputs.aws-role-to-assume }}
 
     - run: aws sts get-caller-identity
       shell: bash
