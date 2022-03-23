@@ -1,3 +1,24 @@
+# [1.1.0](https://github.com/awazevr/mfe-docker-build-push-action/compare/v1.0.36...v1.1.0) (2022-03-23)
+
+
+### Bug Fixes
+
+* **CHECK-360:** add missing step param ([43634a5](https://github.com/awazevr/mfe-docker-build-push-action/commit/43634a524ee654ed33cd1ee86471d1be73673683))
+* **CHECK-360:** typo ([a72bc68](https://github.com/awazevr/mfe-docker-build-push-action/commit/a72bc681ca9a941f2069560ed26ca7a2b998ba64))
+
+
+### Features
+
+* **CHECK-257:** Made AWS Access key and secret not required. Added role to assume support. ([784c923](https://github.com/awazevr/mfe-docker-build-push-action/commit/784c9230e00db0c5c3d151da71987644420f05d0))
+* **CHECK-360:** Move to using IAM role for AWS ([fb48100](https://github.com/awazevr/mfe-docker-build-push-action/commit/fb48100fedf95743f162f0828d9b41db59f69863))
+
+
+### BREAKING CHANGES
+
+* **CHECK-360:** removes the aws-access-key-id and
+aws-secret-access-key parameters and adds the
+aws-role-to-assume parameter instead.
+
 ## [1.0.36](https://github.com/awazevr/mfe-docker-build-push-action/compare/v1.0.35...v1.0.36) (2022-01-26)
 
 
